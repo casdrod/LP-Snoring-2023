@@ -1,0 +1,79 @@
+<h1>Sleep Apnea Quiz</h1>
+<div id="sleep-apnea-quiz">
+    <form action="" class="forms" method="post">
+        <input name="first_name" required="true" type="text" placeholder="First Name">
+        <input name="last_name" type="text" placeholder="Last Name">
+        <input name="email" required="true" type="text" placeholder="Email Address">
+        <input name="phone" type="text" required="true" placeholder="Phone Number">
+        <div id="questions">
+            <div>
+                <label for="diagnosed">Have you been diagnosed with sleep apnea?</label>
+                <div class="answers">
+                    <span><input name="diagnosed" type="radio" value="Yes">Yes</span>
+                    <span><input name="diagnosed" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div>
+                <label for="Snore">Have you been told that you snore? </label>
+                <div class="answers">
+                    <span><input name="Snore" type="radio" value="Yes">Yes</span>
+                    <span><input name="Snore" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div>
+                <label for="awake_with_chestpain_or_shortness_of_breath">Do you awaken from sleep with chest pain or shortness of breath?</label>
+                <div class="answers">
+                    <span><input name="awake_with_chestpain_or_shortness_of_breath" type="radio" value="Yes">Yes</span>
+                    <span><input name="awake_with_chestpain_or_shortness_of_breath" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div>
+                <label for="stop_breathing">Has anyone said that you seem to stop breathing while sleeping?</label>
+                <div class="answers">
+                    <span><input name="stop_breathing" type="radio" value="Yes">Yes</span>
+                    <span><input name="stop_breathing" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div>
+                <label for="dream">Do you dream?</label>
+                <div class="answers">
+                    <span><input name="dream" type="radio" value="Yes">Yes</span>
+                    <span><input name="dream" type="radio" value="No">No</span>
+                    <span><input name="dream" type="radio" value="Not Sure">Not sure</span>
+                </div>
+            </div>
+            <div>
+                <label for="describe_sleep">How would you describe your sleep?</label>
+                <div class="answers">
+                    <span><input name="describe_sleep" type="radio" value="Restful">Restful</span>
+                    <span><input name="describe_sleep" type="radio" value="Disruptive">Disruptive</span>
+                    <span><input name="describe_sleep" type="radio" value="Non-existent">Non-existent</span>
+                </div>
+            </div>
+            <div>
+                <label for="cpap">Do you have a CPAP?</label>
+                <div class="answers">
+                    <span><input name="cpap" type="radio" value="Yes, use every night">Yes, use every night</span>
+                    <span><input name="cpap" type="radio" value="Yes, use sporadically">Yes, use sporadically</span>
+                    <span><input name="cpap" type="radio" value="No">No</span>
+                </div>
+            </div>
+            <div id="history">
+                <label for="history">Do you have/have you had any of the following (select all that apply):</label>
+                <div class="answers">
+                    <span><input type="checkbox" name="history" value="Diabetes">Diabetes</span>
+                    <span><input type="checkbox" name="history" value="Shortness of breath">Shortness of breath</span>
+                    <span><input type="checkbox" name="history" value="Stroke">Stroke</span>
+                    <span><input type="checkbox" name="history" value="Atrial fibrillation">Atrial fibrillation</span>
+                    <span><input type="checkbox" name="history" value="High blood pressure">High blood pressure</span>
+                    <span><input type="checkbox" name="history" value="Coronary artery disease">Coronary artery disease</span>
+                    <span><input type="checkbox" name="history" value="Congestive heart failure">Congestive heart failure</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn">Submit</button>
+        <input name="_redirect" type="hidden" value="thanks.html">
+        <input name="_subject" type="hidden" value="LP Snoring Quiz">
+    </form>
+</div>
